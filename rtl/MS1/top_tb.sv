@@ -27,7 +27,8 @@ nn_node DUT0(   .x0(x0), .x1(x1), .x2(x2), .x3(x3),
                 .w48(w48), .w58(w58), .w68(w68), .w78(w78),
                 .w49(w49), .w59(w59), .w69(w69), .w79(w79),
                 .out0(out0), .out1(out1),
-                .in_ready(in_ready), .out10_ready(out10_ready), .out11_ready(out11_ready),
+                .in_ready(in_ready), .
+                (out10_ready), .out11_ready(out11_ready),
                 .clk(clk));
 
 initial begin
