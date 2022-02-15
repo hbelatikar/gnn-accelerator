@@ -11,7 +11,7 @@ reg [15:0] w49, w59, w69, w79;
 reg clk;
 
 wire [15:0] out0, out1;
-wire out10_ready, out11_ready;
+wire out11_ready, out10_ready ;
 
 reg in_ready;
 // Top module
@@ -19,7 +19,7 @@ reg in_ready;
 // Please replace the instantiation with the top module of your gate level model 
 
 
-nn_node DUT0(   .x0(x0), .x1(x1), .x2(x2), .x3(x3), 
+nn_node DUT0(   .in0(x0), .in1(x1), .in2(x2), .in3(x3), 
                 .w04(w04), .w14(w14), .w24(w24), .w34(w34), 
                 .w05(w05), .w15(w15), .w25(w25), .w35(w35),
                 .w06(w06), .w16(w16), .w26(w26), .w36(w36),
@@ -27,8 +27,7 @@ nn_node DUT0(   .x0(x0), .x1(x1), .x2(x2), .x3(x3),
                 .w48(w48), .w58(w58), .w68(w68), .w78(w78),
                 .w49(w49), .w59(w59), .w69(w69), .w79(w79),
                 .out0(out0), .out1(out1),
-                .in_ready(in_ready), .
-                (out10_ready), .out11_ready(out11_ready),
+                .in_ready(in_ready), .out_ready(out11_ready),
                 .clk(clk));
 
 initial begin
@@ -67,6 +66,7 @@ initial begin
 
 end
 
+assign out10_ready = out11_ready;
 
 always
     #1 clk = !clk;
