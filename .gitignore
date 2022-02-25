@@ -1,1 +1,5 @@
 .DS_Store
+*.cr.*
+*.wlf
+**/ms1_proj/work/
+rtl/MS1/ms1_proj/work/
