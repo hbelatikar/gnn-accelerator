@@ -1,0 +1,82 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.2_2 2021.06, Jun 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/filespace/b/belatikar/ece755/gnn-accelerator/rtl/MS1
+T_opt
+!s110 1644954030
+V:@<c^:Web:YcnjhA8E^PN1
+Z2 04 6 4 work tb_top fast 0
+=1-000ae431a4f1-620c01ad-88f01-3dc7
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OE;O;2021.2_2;73
+R1
+T_opt1
+!s110 1644954184
+VHW=>Cb1We5j;L4NE3Q@0L3
+R2
+=1-000ae431a4f1-620c0248-e167-3eb8
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+vnn_node
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1644954116
+!i10b 1
+!s100 BkiFD<X^F61f]dELblKej2
+IjRN[A:2nYg9=IPPKmZ6U50
+S1
+R1
+w1644948828
+8/filespace/b/belatikar/ece755/gnn-accelerator/rtl/MS1/nn_node.sv
+F/filespace/b/belatikar/ece755/gnn-accelerator/rtl/MS1/nn_node.sv
+!i122 3
+L0 1 32
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OE;L;2021.2_2;73
+r1
+!s85 0
+31
+!s108 1644954116.000000
+!s107 /filespace/b/belatikar/ece755/gnn-accelerator/rtl/MS1/nn_node.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/filespace/b/belatikar/ece755/gnn-accelerator/rtl/MS1/nn_node.sv|
+!i113 0
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vtb_top
+R6
+!s110 1644954117
+!i10b 1
+!s100 16=Q7bSHTZD]ok=PPb9QY3
+IC2E71OnMUke[?lTzVDHAU1
+S1
+R1
+w1644953854
+8/filespace/b/belatikar/ece755/gnn-accelerator/rtl/MS1/top_tb.sv
+F/filespace/b/belatikar/ece755/gnn-accelerator/rtl/MS1/top_tb.sv
+!i122 4
+L0 1 79
+R7
+R8
+r1
+!s85 0
+31
+!s108 1644954117.000000
+!s107 /filespace/b/belatikar/ece755/gnn-accelerator/rtl/MS1/top_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/filespace/b/belatikar/ece755/gnn-accelerator/rtl/MS1/top_tb.sv|
+!i113 0
+R9
+R4
