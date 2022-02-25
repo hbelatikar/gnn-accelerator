@@ -1,286 +1,19 @@
-# Project file E:/UWMadison/OneDrive - UW-Madison/ECE551/Excercises/Ex23/vsim-rhm-logic/logic-rhm.mpf was not found.
-# Unable to open project.
 # Loading project ms1_proj
 # Compile of top.sv was successful.
 # Compile of top_tb.sv was successful.
 # 2 compiles, 0 failed with no errors.
 vsim work.tb_top
 # vsim work.tb_top 
-# Start time: 21:09:22 on Feb 24,2022
+# Start time: 23:37:42 on Feb 24,2022
 # Loading sv_std.std
 # Loading work.tb_top
 # Loading work.top
-# ** Error: (vsim-3063) Port 'out10_ready' not found in the connected module (32nd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top File: E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv Line: 23
-# ** Error: (vsim-3063) Port 'out11_ready' not found in the connected module (33rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top File: E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv Line: 23
-# Error loading design
-# End time: 21:09:24 on Feb 24,2022, Elapsed time: 0:00:02
-# Errors: 2, Warnings: 5
-# Compile of top_tb.sv was successful.
-vsim work.tb_top
-# vsim work.tb_top 
-# Start time: 21:10:34 on Feb 24,2022
-# Loading sv_std.std
-# Loading work.tb_top
-# Loading work.top
-add wave -position insertpoint sim:/tb_top/top/*
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# *********** ALL TESTS PASSED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(96)
-#    Time: 100 ps  Iteration: 0  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 96
-# Compile of top.sv failed with 1 errors.
-# Compile of top.sv failed with 1 errors.
-# Compile of top.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# *********** ALL TESTS PASSED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(96)
-#    Time: 100 ps  Iteration: 0  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 96
-# Compile of top.sv was successful.
-# Compile of top_tb.sv failed with 8 errors.
-# 2 compiles, 1 failed with 8 errors.
-# Compile of top_tb.sv failed with 7 errors.
-# Compile of top_tb.sv failed with 7 errors.
-# Compile of top_tb.sv failed with 6 errors.
-# Compile of top_tb.sv failed with 5 errors.
-# Compile of top_tb.sv failed with 4 errors.
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
-# Loading work.top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 1 Failed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(183)
-#    Time: 199 ps  Iteration: 1  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 183
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 2 Failed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(184)
-#    Time: 199 ps  Iteration: 1  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 184
-restart
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
-run -all
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 1 Failed-----------
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 2 Failed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(184)
-#    Time: 199 ps  Iteration: 1  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 184
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 2 Failed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(184)
-#    Time: 199 ps  Iteration: 1  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 184
-# Compile of top_tb.sv failed with 4 errors.
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 2 Passed-----------
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 3 Failed-----------
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 4 Failed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(324)
-#    Time: 199 ps  Iteration: 1  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 324
-# Compile of top.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 2 Passed-----------
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 3 Failed-----------
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 4 Failed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(324)
-#    Time: 199 ps  Iteration: 1  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 324
-# Compile of top.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 2 Passed-----------
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 3 Failed-----------
-# -----------out0 is incorrect-----------
-# -----------out1 is incorrect-----------
-# -----------Test 4 Failed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(324)
-#    Time: 199 ps  Iteration: 1  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 324
-# Compile of top_tb.sv was successful.
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 2 Passed-----------
-# -----------out0 is incorrect----------- got  65536
-# -----------out1 is incorrect----------- got  65536
-# -----------Test 3 Failed-----------
-# -----------out0 is incorrect----------- got  54000
-# -----------out1 is incorrect----------- got  54000
-# -----------Test 4 Failed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(324)
-#    Time: 199 ps  Iteration: 1  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 324
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 2 Passed-----------
-# -----------out0 is correct----------------- got  -65536
-# -----------out1 is correct----------- got  -65536
-# -----------Test 3 Passed-----------
-# -----------out0 is incorrect----------- got   54000
-# -----------out1 is incorrect----------- got   54000
-# -----------Test 4 Failed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $finish    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(324)
-#    Time: 199 ps  Iteration: 1  Instance: /tb_top
-# 1
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 324
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 2 Passed-----------
-# -----------out0 is correct----------------- got  -65536
-# -----------out1 is correct----------- got  -65536
-# -----------Test 3 Passed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 4 Passed-----------
-# *********** ALL TESTS PASSED *********
-# ** Note: $stop    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(315)
-#    Time: 43 ps  Iteration: 1  Instance: /tb_top
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 315
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
-run -all
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 1 Passed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 2 Passed-----------
-# -----------out0 is incorrect----------- got  65536
-# -----------out1 is incorrect----------- got  65536
-# -----------Test 3 Failed-----------
-# -----------out0 is correct-----------------
-# -----------out1 is correct-----------
-# -----------Test 4 Passed-----------
-# *********** SOME TEST(S) FAILED *********
-# ** Note: $stop    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(315)
-#    Time: 43 ps  Iteration: 1  Instance: /tb_top
-# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 315
-# Compile of top_tb.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_top
+add wave -position insertpoint sim:/tb_top/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Admin  Hostname: HRISHIKES-LENOV  ProcessID: 19452
+#           Attempting to use alternate WLF file "./wlft16jrnf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft16jrnf
 run -all
 # -----------out0 is correct-----------------
 # -----------out1 is correct-----------
@@ -295,6 +28,50 @@ run -all
 # -----------out1 is correct-----------
 # -----------Test 4 Passed-----------
 # *********** ALL TESTS PASSED *********
+# ** Note: $stop    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(315)
+#    Time: 43 ps  Iteration: 1  Instance: /tb_top
+# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 315
+add wave -position insertpoint sim:/tb_top/top/*
+run -all
+# Break key hit
+# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 320
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# -----------out0 is correct-----------------
+# -----------out1 is correct-----------
+# -----------Test 1 Passed-----------
+# -----------out0 is correct-----------------
+# -----------out1 is correct-----------
+# -----------Test 2 Passed-----------
+# -----------out0 is correct----------------- got  65536
+# -----------out1 is correct----------- got  65536
+# -----------Test 3 Passed-----------
+# -----------out0 is correct-----------------
+# -----------out1 is correct-----------
+# -----------Test 4 Passed-----------
+# *********** ALL TESTS PASSED *********
+# ** Note: $stop    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(315)
+#    Time: 43 ps  Iteration: 1  Instance: /tb_top
+# Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 315
+# Compile of top.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+run -all
+# -----------out0 is correct-----------------
+# -----------out1 is correct-----------
+# -----------Test 1 Passed-----------
+# -----------out0 is correct-----------------
+# -----------out1 is correct-----------
+# -----------Test 2 Passed-----------
+# -----------out0 is incorrect----------- got      0
+# -----------out1 is incorrect----------- got      0
+# -----------Test 3 Failed-----------
+# -----------out0 is correct-----------------
+# -----------out1 is correct-----------
+# -----------Test 4 Passed-----------
+# *********** SOME TEST(S) FAILED *********
 # ** Note: $stop    : E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv(315)
 #    Time: 43 ps  Iteration: 1  Instance: /tb_top
 # Break in Module tb_top at E:/UWMadison/OneDrive - UW-Madison/Spring'22/ECE755/Project/gnn-accelerator/rtl/ms1/top_tb.sv line 315

@@ -28,6 +28,7 @@ module top (
     ////////////////////////////////////////
     
     //Signed output bits for the middle layer
+    //Middle layer has an extra bit
     logic signed [11:0] y4, y5, y6, y7; 
 
     //Signed output of ReLu activation
@@ -52,10 +53,10 @@ module top (
 	always_ff @(posedge clk) 
 	begin         
         //If negative number then assign as 0 else assign y
-        z4 <= (y4[11]) ? 11'b0 : y4;
-        z5 <= (y5[11]) ? 11'b0 : y5;
-        z6 <= (y6[11]) ? 11'b0 : y6;
-        z7 <= (y7[11]) ? 11'b0 : y7;
+        z4 <= (y4[11]) ? 'b0 : y4;
+        z5 <= (y5[11]) ? 'b0 : y5;
+        z6 <= (y6[11]) ? 'b0 : y6;
+        z7 <= (y7[11]) ? 'b0 : y7;
 		z_ready <= y_ready;
     end
 
