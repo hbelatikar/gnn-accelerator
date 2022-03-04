@@ -1,11 +1,11 @@
-module mac #(MAC_IN_SIZE = 5, MAC_OUT_SIZE = 13, W_SIZE = 5) (
+module mac #(parameter MAC_IN_SIZE = 5, parameter MAC_OUT_SIZE = 13, parameter W_SIZE = 5) (
     x0, x1, x2, x3, 
     w04, w05, w06, w07, 
     w14, w15, w16, w17, 
     w24, w25, w26, w27, 
     w34, w35, w36, w37, 
     out0, out1, out2, out3,
-    in_ready, mac_ready 
+    in_ready, mac_ready,
     clk
 );
     // Inputs
@@ -18,7 +18,7 @@ module mac #(MAC_IN_SIZE = 5, MAC_OUT_SIZE = 13, W_SIZE = 5) (
                                     w34, w35, w36, w37;
     // Outputs
     output logic mac_ready;
-    output signed [MAC_OUT_SIZE - 1:0] out0, out1, out2, out3; //Signed output bits of the MAC
+    output logic signed [MAC_OUT_SIZE - 1:0] out0, out1, out2, out3; //Signed output bits of the MAC
 
     /////////////////////////////////////////
     // Implementation of the MAC operation//

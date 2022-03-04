@@ -1,4 +1,4 @@
-module mac_4n #(MAC4_IN_SIZE = 7, MAC4_OUT_SIZE = 13, MAC4_W_SIZE = 5) (
+module mac_4n #(parameter MAC4_IN_SIZE = 7, parameter MAC4_OUT_SIZE = 13, parameter MAC4_W_SIZE = 5) (
     x0_n0, x1_n0, x2_n0, x3_n0, 
     x0_n1, x1_n1, x2_n1, x3_n1, 
     x0_n2, x1_n2, x2_n2, x3_n2, 
@@ -36,8 +36,8 @@ module mac_4n #(MAC4_IN_SIZE = 7, MAC4_OUT_SIZE = 13, MAC4_W_SIZE = 5) (
     logic out_ready_mac_0, out_ready_mac_1, out_ready_mac_2, out_ready_mac_3; 
 
     //Instantiations
-    mac M0 #(MAC_IN_SIZE = MAC4_IN_SIZE, MAC_OUT_SIZE = MAC4_OUT_SIZE, W_SIZE = MAC4_W_SIZE)
-            (.clk(clk), .in_ready(in_ready), 
+    mac     #(.MAC_IN_SIZE(MAC4_IN_SIZE), .MAC_OUT_SIZE(MAC4_OUT_SIZE), .W_SIZE(MAC4_W_SIZE))
+        M0  (.clk(clk), .in_ready(in_ready), 
             .x0 (x0_n0), .x1(x1_n0), .x2(x2_n0), .x3(x3_n0), 
             .w04(w04),   .w14(w14),  .w24(w24),  .w34(w34), 
             .w05(w05),   .w15(w15),  .w25(w25),  .w35(w35),
@@ -46,8 +46,8 @@ module mac_4n #(MAC4_IN_SIZE = 7, MAC4_OUT_SIZE = 13, MAC4_W_SIZE = 5) (
             .out0(out0_n0), .out1(out1_n0), .out2(out2_n0), .out3(out3_n0),
             .mac_ready(out_ready_mac_0));
     
-    mac M1 #(MAC_IN_SIZE = MAC4_IN_SIZE, MAC_OUT_SIZE = MAC4_OUT_SIZE, W_SIZE = MAC4_W_SIZE)
-            (.clk(clk), .in_ready(in_ready), 
+    mac     #(.MAC_IN_SIZE(MAC4_IN_SIZE), .MAC_OUT_SIZE(MAC4_OUT_SIZE), .W_SIZE(MAC4_W_SIZE))
+        M1  (.clk(clk), .in_ready(in_ready), 
             .x0 (x0_n1), .x1(x1_n1), .x2(x2_n1), .x3(x3_n1), 
             .w04(w04),   .w14(w14),  .w24(w24),  .w34(w34), 
             .w05(w05),   .w15(w15),  .w25(w25),  .w35(w35),
@@ -56,8 +56,8 @@ module mac_4n #(MAC4_IN_SIZE = 7, MAC4_OUT_SIZE = 13, MAC4_W_SIZE = 5) (
             .out0(out0_n1), .out1(out1_n1), .out2(out2_n1), .out3(out3_n1),
             .mac_ready(out_ready_mac_1));
 
-    mac M2 #(MAC_IN_SIZE = MAC4_IN_SIZE, MAC_OUT_SIZE = MAC4_OUT_SIZE, W_SIZE = MAC4_W_SIZE)
-            (.clk(clk), .in_ready(in_ready), 
+    mac     #(.MAC_IN_SIZE(MAC4_IN_SIZE), .MAC_OUT_SIZE(MAC4_OUT_SIZE), .W_SIZE(MAC4_W_SIZE))
+        M2  (.clk(clk), .in_ready(in_ready), 
             .x0 (x0_n2), .x1(x1_n2), .x2(x2_n2), .x3(x3_n2), 
             .w04(w04),   .w14(w14),  .w24(w24),  .w34(w34), 
             .w05(w05),   .w15(w15),  .w25(w25),  .w35(w35),
@@ -66,8 +66,8 @@ module mac_4n #(MAC4_IN_SIZE = 7, MAC4_OUT_SIZE = 13, MAC4_W_SIZE = 5) (
             .out0(out0_n2), .out1(out1_n2), .out2(out2_n2), .out3(out3_n2),
             .mac_ready(out_ready_mac_2));
 
-    mac M3 #(MAC_IN_SIZE = MAC4_IN_SIZE, MAC_OUT_SIZE = MAC4_OUT_SIZE, W_SIZE = MAC4_W_SIZE)
-            (.clk(clk), .in_ready(in_ready), 
+    mac     #(.MAC_IN_SIZE(MAC4_IN_SIZE), .MAC_OUT_SIZE(MAC4_OUT_SIZE), .W_SIZE(MAC4_W_SIZE))
+        M3  (.clk(clk), .in_ready(in_ready), 
             .x0 (x0_n3), .x1(x1_n3), .x2(x2_n3), .x3(x3_n3), 
             .w04(w04),   .w14(w14),  .w24(w24),  .w34(w34), 
             .w05(w05),   .w15(w15),  .w25(w25),  .w35(w35),
