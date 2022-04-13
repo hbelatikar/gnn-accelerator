@@ -3,7 +3,7 @@
 Report : area
 Design : top
 Version: S-2021.06
-Date   : Tue Apr 12 16:07:26 2022
+Date   : Tue Apr 12 21:48:48 2022
 ****************************************
 
 Library(s) Used:
@@ -11,20 +11,20 @@ Library(s) Used:
     tcbn45gsbwptc (File: /cae/apps/data/tsmclibs-2013/digital/Front_End/timing_power_noise/NLDM/tcbn45gsbwp_120a/tcbn45gsbwptc.db)
 
 Number of ports:                          380
-Number of nets:                         21398
-Number of cells:                        16736
-Number of combinational cells:          15798
+Number of nets:                         21397
+Number of cells:                        16735
+Number of combinational cells:          15797
 Number of sequential cells:               938
 Number of macros/black boxes:               0
-Number of buf/inv:                       1635
-Number of references:                      72
+Number of buf/inv:                       1634
+Number of references:                      73
 
-Combinational area:              31299.710062
-Buf/Inv area:                     1514.394046
+Combinational area:              31303.943662
+Buf/Inv area:                     1517.569246
 Noncombinational area:            4449.337400
 Macro/Black Box area:                0.000000
 Net Interconnect area:      undefined  (Wire load has zero net area)
 
-Total cell area:                 35749.047463
+Total cell area:                 35753.281062
 Total area:                 undefined
 1

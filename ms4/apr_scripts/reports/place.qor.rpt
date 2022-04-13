@@ -4,7 +4,7 @@ Information: Updating graph... (UID-83)
 Report : qor
 Design : top
 Version: S-2021.06
-Date   : Tue Apr 12 16:04:58 2022
+Date   : Tue Apr 12 21:46:24 2022
 ****************************************
 
 
@@ -63,16 +63,16 @@ Date   : Tue Apr 12 16:04:58 2022
   -----------------------------------
 
 
-  Hostname: tux-145
+  Hostname: tux-165
 
   Compile CPU Statistics
   -----------------------------------------
   Resource Sharing:                    0.00
   Logic Optimization:                  0.00
-  Mapping Optimization:               12.97
+  Mapping Optimization:               13.00
   -----------------------------------------
-  Overall Compile Time:               13.19
-  Overall Compile Wall Clock Time:    13.32
+  Overall Compile Time:               13.24
+  Overall Compile Wall Clock Time:    13.28
 
   --------------------------------------------------------------------
 

@@ -3,7 +3,7 @@
   Report : Chip Summary
   Design : top
   Version: S-2021.06
-  Date   : Tue Apr 12 16:04:56 2022
+  Date   : Tue Apr 12 21:46:22 2022
 ****************************************
 Std cell utilization: 59.09%  (200833/(339888-0))
 (Non-fixed + Fixed)
@@ -29,7 +29,7 @@ Physical DB scale:    1000 db_unit = 1 um
   Report : pnet options
   Design : top
   Version: S-2021.06
-  Date   : Tue Apr 12 16:04:56 2022
+  Date   : Tue Apr 12 21:46:22 2022
 ****************************************
 
 

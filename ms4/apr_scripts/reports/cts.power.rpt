@@ -7,7 +7,7 @@ Report : power
         -analysis_effort low
 Design : top
 Version: S-2021.06
-Date   : Tue Apr 12 16:05:48 2022
+Date   : Tue Apr 12 21:47:10 2022
 ****************************************
 
 
@@ -33,12 +33,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  =   1.3116 mW   (66%)
-  Net Switching Power  = 669.3582 uW   (34%)
+  Cell Internal Power  =   1.3111 mW   (66%)
+  Net Switching Power  = 669.0667 uW   (34%)
                          ---------
-Total Dynamic Power    =   1.9809 mW  (100%)
+Total Dynamic Power    =   1.9801 mW  (100%)
 
-Cell Leakage Power     = 474.5152 uW
+Cell Leakage Power     = 474.5381 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -47,10 +47,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network  7.8968e-03        8.7897e-02          931.7601        9.6725e-02  (   3.94%)
-register           0.4155        1.9152e-02        4.0285e+04            0.4749  (  19.34%)
+clock_network  8.0033e-03        8.7947e-02          939.1337        9.6890e-02  (   3.95%)
+register           0.4151        1.9005e-02        4.0284e+04            0.4744  (  19.32%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      0.8882            0.5623        4.3330e+05            1.8838  (  76.72%)
+combinational      0.8880            0.5621        4.3331e+05            1.8834  (  76.73%)
 --------------------------------------------------------------------------------------------------
-Total              1.3116 mW         0.6694 mW     4.7451e+05 nW         2.4555 mW
+Total              1.3111 mW         0.6691 mW     4.7454e+05 nW         2.4547 mW
 1
