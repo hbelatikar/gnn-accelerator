@@ -1,0 +1,1134 @@
+Technology file /cae/apps/data/tsmclibs-2013/digital/Back_End/milkyway/tcbn45gsbwp_120a/techfiles/HVH_0d5_0/tsmcn45_10lm7X2ZRDL.tf has been loaded successfully.
+--
+Warning: Unit conflict found: Milkyway technology file resistance unit is Ohm; main library resistance unit is kOhm. (IFS-007)
+Warning: Unit conflict found: Milkyway technology file power unit is mW; main library power unit is nW. (IFS-007)
+Type of creating bus for undefined cells : 0
+Warning: /cae/apps/data/tsmclibs-2013/digital/Back_End/milkyway/tcbn45gsbwp_120a/frame_only_HVH_0d5_0/tcbn45gsbwp: bus naming style _<%d> is not consistent with main lib. (MWNL-111)
+
+--
+Warning: The 'PCLAMP1ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PCLAMP1ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PCLAMP2ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PCLAMP2ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB02SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB02SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB04SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB04SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD02SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD02SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD04SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD04SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDSDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDSDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDWDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDWDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDIDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDIDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDISDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDISDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO02CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO02CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO04CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO04CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO08CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO08CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO12CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO12CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO16CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO16CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO24CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO24CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU02SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU02SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU04SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU04SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUSDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUSDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUWDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUWDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXO01DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXO01DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXO02DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXO02DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXO03DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXO03DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXOE1DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXOE1DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXOE2DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXOE2DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXOE3DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXOE3DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRCUT' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRCUT' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRDW08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRDW08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRDW12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRDW12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRDW16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRDW16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRDW24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRDW24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRO08CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRO08CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRO12CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRO12CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRO16CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRO16CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRO24CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRO24CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRT08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRT08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRT12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRT12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRT16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRT16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRT24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRT24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRUW08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRUW08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRUW12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRUW12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRUW16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRUW16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRUW24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRUW24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD1ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD1ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD1DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD1DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD2ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD2ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD2DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD2DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD2POC' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD2POC' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS1ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS1ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS1DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS1DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS2ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS2ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS2DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS2DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS3DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS3DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+--
+Warning: Constraint 'set_wire_load_model' is not supported by icc_shell. (SDC-3)
+
+--
+Warning: No scan chain found. (VFP-425)
+CPU time for freeing timing design =    0:00:00
+--
+Warning: No hierarchy information in design. Hierarchy gravity turned off. (VFP-415)
+  14 blocks freed
+--
+Warning: The 'PCLAMP1ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PCLAMP1ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PCLAMP2ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PCLAMP2ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB02SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB02SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB04SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB04SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDB24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDB24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD02SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD02SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD04SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD04SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDD24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDD24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDSDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDSDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDW24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDW24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDDWDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDDWDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDIDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDIDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDISDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDISDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO02CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO02CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO04CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO04CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO08CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO08CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO12CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO12CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO16CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO16CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDO24CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDO24CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDT24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDT24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU02SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU02SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU04SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU04SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDU24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDU24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUSDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUSDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW02DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW02DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW04DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW04DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUW24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUW24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDUWDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDUWDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXO01DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXO01DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXO02DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXO02DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXO03DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXO03DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXOE1DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXOE1DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXOE2DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXOE2DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PDXOE3DG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PDXOE3DG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRB24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRB24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRCUT' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRCUT' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRD24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRD24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRDW08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRDW08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRDW12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRDW12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRDW16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRDW16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRDW24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRDW24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRO08CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRO08CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRO12CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRO12CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRO16CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRO16CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRO24CDG' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRO24CDG' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRT08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRT08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRT12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRT12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRT16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRT16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRT24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRT24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU08SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU08SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU12SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU12SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU16SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU16SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRU24SDGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRU24SDGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRUW08DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRUW08DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRUW12DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRUW12DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRUW16DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRUW16DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PRUW24DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PRUW24DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD1ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD1ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD1DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD1DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD2ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD2ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD2DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD2DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVDD2POC' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVDD2POC' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS1ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS1ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS1DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS1DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS2ANA' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS2ANA' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS2DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS2DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+Warning: The 'PVSS3DGZ' cell in the 'tpfn45gsgv18tc' technology library is being 
+        marked as "dont_use". (PSYN-039)
+Warning: The 'PVSS3DGZ' cell in the 'tpfn45gsgv18tc' technology library does not 
+        have corresponding physical cell description. (PSYN-024)
+--
+Warning: Setting attribute 'fix_multiple_port_nets' on design 'top'. (UIO-59)
+
+--
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1.000 kohm and in the Milkyway design library it is 0.001 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+--
+Warning: Scan DEF information is required. (PSYN-1099)
+...25%...50%...75%...100% done.
+--
+Warning: Scan DEF information is required. (PSYN-1099)
+50%...67%...83%...100% done.
+--
+Warning: Die area is not integer multiples of min site height (1260), object's width and height(265280,264440). (PSYN-523)
+Warning: Die area is not integer multiples of min site width (140), object's width and height(265280,264440). (PSYN-523)
+
+--
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1.000 kohm and in the Milkyway design library it is 0.001 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+--
+Warning: Scan DEF information is required. (PSYN-1099)
+...25%...50%...75%...100% done.
+--
+Warning: Scan DEF information is required. (PSYN-1099)
+50%...67%...83%...100% done.
+--
+Warning: Die area is not integer multiples of min site height (1260), object's width and height(265280,264440). (PSYN-523)
+Warning: Die area is not integer multiples of min site width (140), object's width and height(265280,264440). (PSYN-523)
+
+--
+Warning: Die area is not integer multiples of min site height (1260), object's width and height(265280,264440). (PSYN-523)
+Warning: Die area is not integer multiples of min site width (140), object's width and height(265280,264440). (PSYN-523)
+
+--
+Warning: Die area is not integer multiples of min site height (1260), object's width and height(265280,264440). (PSYN-523)
+Warning: Die area is not integer multiples of min site width (140), object's width and height(265280,264440). (PSYN-523)
+
+--
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1.000 kohm and in the Milkyway design library it is 0.001 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+--
+Warning: Starting from the 2011.09-SP4 release, clock_opt will NOT perform congestion-driven placement by default. (PSYN-1111)
+
+--
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1.000 kohm and in the Milkyway design library it is 0.001 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+--
+Warning: Die area is not integer multiples of min site height (1260), object's width and height(265280,264440). (PSYN-523)
+Warning: Die area is not integer multiples of min site width (140), object's width and height(265280,264440). (PSYN-523)
+
+--
+Via on layer (VIA8) needs more than one tracks
+Via on layer (RV) needs more than one tracks
+Start Global Route ... 
+--
+Via on layer (VIA8) needs more than one tracks
+Via on layer (RV) needs more than one tracks
+Start Global Route ... 
+--
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1.000 kohm and in the Milkyway design library it is 0.001 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+--
+Warning: Inconsistent library data found for layer PO. (RCEX-018)
+Information: Found HALF_NODE_SCALE_FACTOR 0.900000 in TLUPlus files. (TLUP-016)
+--
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1.000 kohm and in the Milkyway design library it is 0.001 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+--
+Warning: Die area is not integer multiples of min site height (1260), object's width and height(265280,264440). (PSYN-523)
+Warning: Die area is not integer multiples of min site width (140), object's width and height(265280,264440). (PSYN-523)
+
+--
+Via on layer (VIA8) needs more than one tracks
+Via on layer (RV) needs more than one tracks
+Split 3 nets of total 3 nets.
+--
+Via on layer (VIA8) needs more than one tracks
+Via on layer (RV) needs more than one tracks
+[ECO: Extraction] Elapsed real time: 0:00:00 
+--
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1.000 kohm and in the Milkyway design library it is 0.001 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+--
+Warning: Inconsistent library data found for layer PO. (RCEX-018)
+Information: Found HALF_NODE_SCALE_FACTOR 0.900000 in TLUPlus files. (TLUP-016)
+--
+Via on layer (VIA8) needs more than one tracks
+Via on layer (RV) needs more than one tracks
+Printing options for 'set_route_zrt_common_options'
+--
+Via on layer (VIA8) needs more than one tracks
+Via on layer (RV) needs more than one tracks
+Printing options for 'set_route_zrt_common_options'
+--
+Warning: The capability of decoupling capacitance was not activated. (APL-067)
+-->clean up DB after adding filler
+--
+Via on layer (VIA8) needs more than one tracks
+Via on layer (RV) needs more than one tracks
+Printing options for 'set_route_zrt_common_options'
