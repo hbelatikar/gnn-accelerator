@@ -1,0 +1,31 @@
+Cell top.err existed already. Delete it ...
+Using [6 x 6] Fat Wire Table for M1
+Using [6 x 6] Fat Wire Table for M2
+Using [6 x 6] Fat Wire Table for M3
+Using [6 x 6] Fat Wire Table for M4
+Using [6 x 6] Fat Wire Table for M5
+Using [6 x 6] Fat Wire Table for M6
+Using [6 x 6] Fat Wire Table for M7
+Using [6 x 6] Fat Wire Table for M8
+Using [3 x 3] Fat Wire Table for M9
+Using [3 x 3] Fat Wire Table for M10
+Using [5 x 5] Fat Wire Table for VIA1
+Using [5 x 5] Fat Wire Table for VIA2
+Using [5 x 5] Fat Wire Table for VIA3
+Using [5 x 5] Fat Wire Table for VIA4
+Using [5 x 5] Fat Wire Table for VIA5
+Using [5 x 5] Fat Wire Table for VIA6
+Using [5 x 5] Fat Wire Table for VIA7
+Using [3 x 3] Fat Wire Table for VIA8
+Using [3 x 3] Fat Wire Table for VIA9
+Checking [VSS]:
+	There are no floating shapes
+	All the pins are connected.
+	No errors are found.
+Checking [VDD]:
+	There are no floating shapes
+	All the pins are connected.
+	No errors are found.
+Checked 2 nets, 0 have Errors
+Update error cell ...
+1

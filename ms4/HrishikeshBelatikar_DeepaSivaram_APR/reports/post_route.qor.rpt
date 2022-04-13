@@ -1,0 +1,90 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : qor
+Design : top
+Version: S-2021.06
+Date   : Tue Apr 12 22:17:18 2022
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              27.00
+  Critical Path Length:          1.67
+  Critical Path Slack:           7.97
+  Critical Path Clk Period:     10.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:              16735
+  Buf/Inv Cell Count:            1634
+  Buf Cell Count:                 748
+  Inv Cell Count:                 886
+  CT Buf/Inv Cell Count:           10
+  Combinational Cell Count:     15797
+  Sequential Cell Count:          938
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    31303.943662
+  Noncombinational Area:  4449.337400
+  Buf/Inv Area:           1517.569246
+  Total Buffer Area:           928.04
+  Total Inverter Area:         589.53
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  Net XLength        :      108870.21
+  Net YLength        :      144248.50
+  -----------------------------------
+  Cell Area:             35753.281062
+  Design Area:           35753.281062
+  Net Length        :       253118.72
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         21397
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: tux-151
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.00
+  Logic Optimization:                  0.00
+  Mapping Optimization:               18.89
+  -----------------------------------------
+  Overall Compile Time:               19.47
+  Overall Compile Wall Clock Time:    19.64
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1
