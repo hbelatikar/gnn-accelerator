@@ -1,0 +1,132 @@
+Loading db file '/cae/apps/data/synopsys-2021/syn/S-2021.06/libraries/syn/gtech.db'
+Loading db file '/cae/apps/data/synopsys-2021/syn/S-2021.06/libraries/syn/standard.sldb'
+  Loading link library 'tcbn45gsbwptc'
+  Loading link library 'tpfn45gsgv18tc'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine top line 156 in file
+		'./rtl_files/top.sv'.
+=================================================================================
+|     Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=================================================================================
+|    out1_node3_reg     | Flip-flop |  21   |  Y  | N  | N  | N  | N  | N  | N  |
+|    out0_node0_reg     | Flip-flop |  21   |  Y  | N  | N  | N  | N  | N  | N  |
+|    out1_node0_reg     | Flip-flop |  21   |  Y  | N  | N  | N  | N  | N  | N  |
+|    out0_node1_reg     | Flip-flop |  21   |  Y  | N  | N  | N  | N  | N  | N  |
+|    out1_node1_reg     | Flip-flop |  21   |  Y  | N  | N  | N  | N  | N  | N  |
+|    out0_node2_reg     | Flip-flop |  21   |  Y  | N  | N  | N  | N  | N  | N  |
+|    out1_node2_reg     | Flip-flop |  21   |  Y  | N  | N  | N  | N  | N  | N  |
+|    out0_node3_reg     | Flip-flop |  21   |  Y  | N  | N  | N  | N  | N  | N  |
+| out10_ready_node0_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| out11_ready_node0_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| out10_ready_node1_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| out11_ready_node1_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| out10_ready_node2_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| out11_ready_node2_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| out10_ready_node3_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| out11_ready_node3_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+=================================================================================
+Presto compilation completed successfully. (top)
+Elaborated 1 design.
+Current design is now 'top'.
+Information: Building the design 'aggr' instantiated from design 'top' with
+	the parameters "AGGR_IN_SIZE=5,AGGR_OUT_SIZE=7". (HDL-193)
+
+Inferred memory devices in process
+	in routine aggr_AGGR_IN_SIZE5_AGGR_OUT_SIZE7 line 26 in file
+		'./rtl_files/aggr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   x3_n3_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x0_n0_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x0_n1_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x0_n2_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x0_n3_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x1_n0_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x1_n1_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x1_n2_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x1_n3_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x2_n0_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x2_n1_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x2_n2_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x2_n3_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x3_n0_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x3_n1_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x3_n2_aggr_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+| out_ready_aggr_reg  | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (aggr_AGGR_IN_SIZE5_AGGR_OUT_SIZE7)
+Information: Building the design 'mac_4n' instantiated from design 'top' with
+	the parameters "MAC4_IN_SIZE=7,MAC4_OUT_SIZE=13,MAC4_W_SIZE=5". (HDL-193)
+Presto compilation completed successfully. (mac_4n_MAC4_IN_SIZE7_MAC4_OUT_SIZE13_MAC4_W_SIZE5)
+Information: Building the design 'relu_4n' instantiated from design 'top' with
+	the parameters "RELU4_SIZE=13". (HDL-193)
+Presto compilation completed successfully. (relu_4n_RELU4_SIZE13)
+Information: Building the design 'aggr' instantiated from design 'top' with
+	the parameters "AGGR_IN_SIZE=13,AGGR_OUT_SIZE=15". (HDL-193)
+
+Inferred memory devices in process
+	in routine aggr_AGGR_IN_SIZE13_AGGR_OUT_SIZE15 line 26 in file
+		'./rtl_files/aggr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   x3_n3_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x0_n0_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x0_n1_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x0_n2_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x0_n3_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x1_n0_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x1_n1_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x1_n2_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x1_n3_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x2_n0_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x2_n1_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x2_n2_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x2_n3_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x3_n0_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x3_n1_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   x3_n2_aggr_reg    | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+| out_ready_aggr_reg  | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (aggr_AGGR_IN_SIZE13_AGGR_OUT_SIZE15)
+Information: Building the design 'mac' instantiated from design 'mac_4n_MAC4_IN_SIZE7_MAC4_OUT_SIZE13_MAC4_W_SIZE5' with
+	the parameters "MAC_IN_SIZE=7,MAC_OUT_SIZE=13,W_SIZE=5". (HDL-193)
+
+Inferred memory devices in process
+	in routine mac_MAC_IN_SIZE7_MAC_OUT_SIZE13_W_SIZE5 line 28 in file
+		'./rtl_files/mac.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      out3_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|      out0_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|      out1_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|      out2_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|    mac_ready_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (mac_MAC_IN_SIZE7_MAC_OUT_SIZE13_W_SIZE5)
+Information: Building the design 'relu' instantiated from design 'relu_4n_RELU4_SIZE13' with
+	the parameters "RELU_SIZE=13". (HDL-193)
+Warning:  ./rtl_files/relu.sv:17: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./rtl_files/relu.sv:18: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./rtl_files/relu.sv:19: signed to unsigned conversion occurs. (VER-318)
+Warning:  ./rtl_files/relu.sv:20: signed to unsigned conversion occurs. (VER-318)
+
+Inferred memory devices in process
+	in routine relu_RELU_SIZE13 line 14 in file
+		'./rtl_files/relu.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      out3_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|      out0_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|      out1_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|      out2_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|   relu_ready_reg    | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (relu_RELU_SIZE13)
+1

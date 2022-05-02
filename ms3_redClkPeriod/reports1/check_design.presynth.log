@@ -1,0 +1,18 @@
+ 
+****************************************
+check_design summary:
+Version:     S-2021.06
+Date:        Sun Mar 27 18:07:14 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               4
+    Cells do not drive (LINT-1)                                     4
+--------------------------------------------------------------------------------
+
+Warning: In design 'top', cell 'B_0' does not drive any nets. (LINT-1)
+Warning: In design 'aggr_AGGR_IN_SIZE5_AGGR_OUT_SIZE7', cell 'B_0' does not drive any nets. (LINT-1)
+Warning: In design 'aggr_AGGR_IN_SIZE13_AGGR_OUT_SIZE15', cell 'B_0' does not drive any nets. (LINT-1)
+Warning: In design 'mac_MAC_IN_SIZE7_MAC_OUT_SIZE13_W_SIZE5', cell 'B_0' does not drive any nets. (LINT-1)
+1

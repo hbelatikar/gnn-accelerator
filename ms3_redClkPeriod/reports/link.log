@@ -1,0 +1,10 @@
+
+  Linking design 'top'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  top                         /filespace/d/deepas/ece755/project/ms3_redClkPeriod/top.db
+  tcbn45gsbwptc (library)     /cae/apps/data/tsmclibs-2013/digital/Front_End/timing_power_noise/NLDM/tcbn45gsbwp_120a/tcbn45gsbwptc.db
+  tpfn45gsgv18tc (library)    /cae/apps/data/tsmclibs-2013/digital/Front_End/timing_power_noise/NLDM/tpfn45gsgv18_120a/tpfn45gsgv18tc.db
+  * (6 designs)               /filespace/d/deepas/ece755/project/ms3_redClkPeriod/aggr_AGGR_IN_SIZE5_AGGR_OUT_SIZE7.db, etc
+
+1

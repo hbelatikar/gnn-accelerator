@@ -1,0 +1,11 @@
+Running PRESTO HDLC
+Compiling source file ./rtl_files/top.sv
+Compiling source file ./rtl_files/aggr.sv
+Compiling source file ./rtl_files/mac.sv
+Compiling source file ./rtl_files/mac_4n.sv
+Compiling source file ./rtl_files/relu.sv
+Compiling source file ./rtl_files/relu_4n.sv
+Presto compilation completed successfully.
+Loading db file '/cae/apps/data/tsmclibs-2013/digital/Front_End/timing_power_noise/NLDM/tcbn45gsbwp_120a/tcbn45gsbwptc.db'
+Loading db file '/cae/apps/data/tsmclibs-2013/digital/Front_End/timing_power_noise/NLDM/tpfn45gsgv18_120a/tpfn45gsgv18tc.db'
+1

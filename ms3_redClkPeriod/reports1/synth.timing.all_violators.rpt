@@ -1,0 +1,21 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : top
+Version: S-2021.06
+Date   : Sun Mar 27 18:08:18 2022
+****************************************
+
+
+   min_delay/hold ('clk' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   A1/x2_n0_aggr_reg[0]/D       0.14           0.14 f         0.00  (VIOLATED: increase significant digits)
+   A1/x3_n0_aggr_reg[0]/D       0.14           0.14 f         0.00  (VIOLATED: increase significant digits)
+   A1/x0_n0_aggr_reg[0]/D       0.14           0.14 f         0.00  (VIOLATED: increase significant digits)
+
+
+1
