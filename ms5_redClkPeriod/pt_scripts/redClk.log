@@ -1,0 +1,285 @@
+#############################################################
+## Library settings
+#############################################################
+## Library settings are sourced from `synopsys_pt.setup`
+## Please check this file for target_library, link_library and other lib/db files
+# read_db /cae/apps/data/tsmclibs-2013/digital/Front_End/timing_power_noise/NLDM/tcbn45gsbwp_120a/tcbn45gsbwptc.db
+#############################################################
+## Initial setup
+#############################################################
+set top top
+top
+file mkdir ./reports
+#############################################################
+## Enable power analysis mode in PrimeTime
+#############################################################
+set power_enable_analysis true
+Information: Checked out license 'PrimePower' (PT-019)
+true
+#############################################################
+## Read design and link
+#############################################################
+redirect -tee ./reports/read_netlist.log { read_verilog ${top}.post_route.vg }
+1
+current_design ${top}
+Information: current_design won't return any data before link (DES-071)
+redirect -tee ./reports/link.log { link }
+Loading verilog file '/filespace/d/deepas/ece755/project/ms5_redClkPeriod/pt_scripts/top.post_route.vg'
+Loading db file '/cae/apps/data/tsmclibs-2013/digital/Front_End/timing_power_noise/NLDM/tcbn45gsbwp_120a/tcbn45gsbwptc.db'
+Linking design top...
+Information: 758 (90.67%) library cells are unused in library tcbn45gsbwptc..... (LNK-045)
+Information: total 758 library cells are unused (LNK-046)
+Design 'top' was successfully linked.
+Information: There are 17432 leaf cells, ports, hiers and 21863 nets in the design (LNK-047)
+1
+# redirect -tee ./reports/read_saif.log { read_saif $SAIF -strip_path top_tb/top }
+#############################################################
+## Read design constraints
+#############################################################
+redirect -tee ./reports/read_sdc.log { read_sdc ${top}.post_route.sdc }
+
+Reading SDC version 2.1...
+1
+#############################################################
+## Read design parasitics
+#############################################################
+redirect -tee ./reports/read_spef.log { read_parasitics -format SPEF ${top}.post_route.spef.gz }
+Information: Log for 'read_parasitics command' will be generated in 'parasitics_command.log'. (PARA-107)
+1
+#############################################################
+## Dump reports
+#############################################################
+redirect -tee ./reports/pt.check_timing.rpt    { check_timing }
+Information: Using automatic max wire load selection group 'WireAreaForZero'. (ENV-003)
+Information: Using automatic min wire load selection group 'WireAreaForZero'. (ENV-003)
+Information: Building multi voltage information for entire design. (MV-022)
+Warning: Some timing arcs have been disabled for breaking timing loops or because of constant propagation. Use the 'report_disable_timing' command to get the list of these disabled timing arcs. (PTE-003)
+Information: Checking 'no_input_delay'.
+Information: Checking 'no_driving_cell'.
+Warning: There are 202 ports with parasitics but with no driving cell.
+
+Information: Checking 'unconstrained_endpoints'.
+Information: Checking 'unexpandable_clocks'.
+Information: Checking 'latch_fanout'.
+Information: Checking 'no_clock'.
+Information: Checking 'partial_input_delay'.
+Information: Checking 'generic'.
+Information: Checking 'loops'.
+Information: Checking 'generated_clocks'.
+Information: Checking 'pulse_clock_non_pulse_clock_merge'.
+Information: Checking 'pll_configuration'.
+0
+redirect -tee ./reports/pt.area.rpt    { report_cell_usage }
+Information: Checked out license 'PrimeTime-ADV' (PT-019)
+Error: Cannot read link_path file 'tpfn45gsgv18tc.db'. (LNK-001)
+****************************************
+Report : cell_usage
+Design : top
+Version: S-2021.06
+Date   : Mon May  2 16:49:30 2022
+****************************************
+
+Cell Group            Count                   Area        
+----------------------------------------------------------
+Combinational         16107 ( 94%)        31671.56 ( 88%) 
+Sequential              938 (  6%)         4446.34 ( 12%) 
+Clock                     8 (  0%)           35.10 (  0%) 
+Others                    0 (  0%)            0.00 (  0%) 
+----------------------------------------------------------
+Total                 17053 (100%)        36153.00 (100%) 
+
+1
+redirect -tee ./reports/pt.update_timing.rpt   { update_timing }
+1
+redirect -tee ./reports/pt.timing.rpt          { report_timing }
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : top
+Version: S-2021.06
+Date   : Mon May  2 16:49:30 2022
+****************************************
+
+
+  Startpoint: w79[1] (input port clocked by clk)
+  Endpoint: out1_node0_reg[20]
+               (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.25       0.25 r
+  w79[1] (in)                                             0.00 +     0.25 r
+  U13/ZN (INVD2BWP)                                       0.03 +     0.28 f
+  U14428/ZN (NR2D0BWP)                                    0.04 +     0.32 r
+  mult_161_4/S2_2_1/CO (FA1D0BWP)                         0.08 +     0.40 r
+  mult_161_4/S2_3_1/CO (FA1D0BWP)                         0.07 +     0.47 r
+  mult_161_4/S2_4_1/CO (FA1D0BWP)                         0.07 +     0.54 r
+  mult_161_4/S2_5_1/CO (FA1D0BWP)                         0.07 +     0.61 r
+  mult_161_4/S2_6_1/CO (FA1D0BWP)                         0.07 +     0.68 r
+  mult_161_4/S2_7_1/CO (FA1D0BWP)                         0.07 +     0.75 r
+  mult_161_4/S2_8_1/CO (FA1D0BWP)                         0.07 +     0.82 r
+  mult_161_4/S2_9_1/CO (FA1D0BWP)                         0.07 +     0.89 r
+  mult_161_4/S2_10_1/CO (FA1D0BWP)                        0.07 +     0.96 r
+  mult_161_4/S2_11_1/CO (FA1D0BWP)                        0.07 +     1.02 r
+  mult_161_4/S2_12_1/CO (FA1D0BWP)                        0.07 +     1.09 r
+  mult_161_4/S2_13_1/CO (FA1D0BWP)                        0.07 +     1.16 r
+  mult_161_4/S4_1/S (FA1D0BWP)                            0.07 +     1.23 r
+  U3992/Z (XOR2D0BWP)                                     0.04 +     1.27 f
+  U14408/ZN (NR2D0BWP)                                    0.03 +     1.31 r
+  U12067/ZN (NR2D0BWP)                                    0.02 +     1.32 f
+  U3988/Z (XOR2D0BWP)                                     0.06 +     1.38 r
+  add_1_root_add_0_root_add_161_3/U1_15/CO (FA1D0BWP)     0.07 +     1.44 r
+  add_1_root_add_0_root_add_161_3/U1_16/S (FA1D0BWP)      0.07 +     1.52 f
+  add_0_root_add_0_root_add_161_3/U1_16/CO (FA1D2BWP)     0.08 +     1.60 f
+  U972/ZN (CKND2D0BWP)                                    0.02 +     1.62 r
+  U975/ZN (ND3D1BWP)                                      0.05 +     1.67 f
+  add_0_root_add_0_root_add_161_3/U1_18/CO (FA1D1BWP)     0.06 +     1.73 f
+  U110/ZN (CKND2D0BWP)                                    0.02 +     1.75 r
+  U116/ZN (ND3D0BWP)                                      0.03 +     1.79 f
+  U128/ZN (CKND0BWP)                                      0.02 +     1.81 r
+  U130/ZN (CKND2D0BWP)                                    0.02 +     1.83 f
+  U132/ZN (CKND2D0BWP)                                    0.02 +     1.84 r
+  out1_node0_reg[20]/D (EDFQD1BWP)                        0.00 +     1.84 r
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (propagated)                        0.07       2.07
+  clock reconvergence pessimism                           0.00       2.07
+  clock uncertainty                                      -0.15       1.92
+  out1_node0_reg[20]/CP (EDFQD1BWP)                                  1.92 r
+  library setup time                                     -0.03       1.89
+  data required time                                                 1.89
+  ------------------------------------------------------------------------------
+  data required time                                                 1.89
+  data arrival time                                                 -1.84
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        0.05
+
+
+1
+redirect -tee ./reports/pt.power.rpt           { report_power -verbose }
+Warning: Neither event file or switching activity data present for power estimation. The command will propagate switching activity values for power calculation.  (PWR-246)
+Information: Running switching activity propagation with 4 threads!
+Information: Running averaged power analysis... (PWR-601)
+Information: Running power calculation with 4 threads. (PWR-602)
+****************************************
+Report : Averaged Power
+	-verbose
+Design : top
+Version: S-2021.06
+Date   : Mon May  2 16:49:31 2022
+****************************************
+
+Library(s) Used:
+
+    tcbn45gsbwptc (File: /cae/apps/data/tsmclibs-2013/digital/Front_End/timing_power_noise/NLDM/tcbn45gsbwp_120a/tcbn45gsbwptc.db)
+
+
+Operating Conditions: NCCOM   Library: tcbn45gsbwptc
+Wire Load Model Mode: segmented
+
+Cell               Design       Wire_model  Library       Selection_type
+--------------------------------------------------------------------------------
+                   top          ZeroWireload
+                                            tcbn45gsbwptc automatic-by-area
+
+Power-specific unit information :
+    Voltage Units = 1 V
+    Capacitance Units = 1 pf
+    Time Units = 1 ns
+    Dynamic Power Units = 1 W
+    Leakage Power Units = 1 W
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           1.659e-03 4.431e-04 9.109e-07 2.103e-03 (21.54%)  i
+register                4.249e-04 1.077e-04 4.015e-05 5.728e-04 ( 5.86%)  
+combinational           3.946e-03 2.707e-03 4.373e-04 7.090e-03 (72.60%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 3.258e-03   (33.36%)
+  Cell Internal Power  = 6.030e-03   (61.74%)
+  Cell Leakage Power   = 4.783e-04   ( 4.90%)
+                         ---------
+Total Power            = 9.766e-03  (100.00%)
+
+1
+redirect -tee ./reports/pt.hier_power.rpt      { report_power -hierarchy -nosplit }
+****************************************
+Report : Averaged Power
+	-hierarchy
+	-nosplit
+Design : top
+Version: S-2021.06
+Date   : Mon May  2 16:49:31 2022
+****************************************
+
+
+
+                                      Int      Switch   Leak     Total
+Hierarchy                             Power    Power    Power    Power    %
+----------------------------------------------------------------------------------
+top                                   6.03e-03 3.26e-03 4.78e-04 9.77e-03 100.0
+1
+redirect -tee ./reports/pt.timing.setup.rpt    { report_timing -delay max -max_paths 20 }
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-slack_lesser_than 0.00
+	-max_paths 20
+	-sort_by slack
+Design : top
+Version: S-2021.06
+Date   : Mon May  2 16:49:31 2022
+****************************************
+
+No paths with slack less than 0.00.
+
+1
+redirect -tee ./reports/pt.timing.hold.rpt     { report_timing -delay min -max_paths 20 }
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-slack_lesser_than 0.00
+	-max_paths 20
+	-sort_by slack
+Design : top
+Version: S-2021.06
+Date   : Mon May  2 16:49:31 2022
+****************************************
+
+No paths with slack less than 0.00.
+
+1
+Information: Defining new variable 'top'. (CMD-041)
+Suppressed Messages Summary:
+Id          Severity      Occurrences   Suppressed
+-------------------------------------------------------------------------------
+PARA-047    Warning             86808        86708
+Total 1 type of message is suppressed
+Maximum memory usage for this session: 3026.70 MB
+CPU usage for this session: 13 seconds 
+Elapsed time for this session: 110 seconds
+Diagnostics summary: 2 errors, 2 warnings, 13 informationals
+
+Thank you for using pt_shell!

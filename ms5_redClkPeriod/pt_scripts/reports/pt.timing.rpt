@@ -1,0 +1,72 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : top
+Version: S-2021.06
+Date   : Mon May  2 16:49:30 2022
+****************************************
+
+
+  Startpoint: w79[1] (input port clocked by clk)
+  Endpoint: out1_node0_reg[20]
+               (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.25       0.25 r
+  w79[1] (in)                                             0.00 +     0.25 r
+  U13/ZN (INVD2BWP)                                       0.03 +     0.28 f
+  U14428/ZN (NR2D0BWP)                                    0.04 +     0.32 r
+  mult_161_4/S2_2_1/CO (FA1D0BWP)                         0.08 +     0.40 r
+  mult_161_4/S2_3_1/CO (FA1D0BWP)                         0.07 +     0.47 r
+  mult_161_4/S2_4_1/CO (FA1D0BWP)                         0.07 +     0.54 r
+  mult_161_4/S2_5_1/CO (FA1D0BWP)                         0.07 +     0.61 r
+  mult_161_4/S2_6_1/CO (FA1D0BWP)                         0.07 +     0.68 r
+  mult_161_4/S2_7_1/CO (FA1D0BWP)                         0.07 +     0.75 r
+  mult_161_4/S2_8_1/CO (FA1D0BWP)                         0.07 +     0.82 r
+  mult_161_4/S2_9_1/CO (FA1D0BWP)                         0.07 +     0.89 r
+  mult_161_4/S2_10_1/CO (FA1D0BWP)                        0.07 +     0.96 r
+  mult_161_4/S2_11_1/CO (FA1D0BWP)                        0.07 +     1.02 r
+  mult_161_4/S2_12_1/CO (FA1D0BWP)                        0.07 +     1.09 r
+  mult_161_4/S2_13_1/CO (FA1D0BWP)                        0.07 +     1.16 r
+  mult_161_4/S4_1/S (FA1D0BWP)                            0.07 +     1.23 r
+  U3992/Z (XOR2D0BWP)                                     0.04 +     1.27 f
+  U14408/ZN (NR2D0BWP)                                    0.03 +     1.31 r
+  U12067/ZN (NR2D0BWP)                                    0.02 +     1.32 f
+  U3988/Z (XOR2D0BWP)                                     0.06 +     1.38 r
+  add_1_root_add_0_root_add_161_3/U1_15/CO (FA1D0BWP)     0.07 +     1.44 r
+  add_1_root_add_0_root_add_161_3/U1_16/S (FA1D0BWP)      0.07 +     1.52 f
+  add_0_root_add_0_root_add_161_3/U1_16/CO (FA1D2BWP)     0.08 +     1.60 f
+  U972/ZN (CKND2D0BWP)                                    0.02 +     1.62 r
+  U975/ZN (ND3D1BWP)                                      0.05 +     1.67 f
+  add_0_root_add_0_root_add_161_3/U1_18/CO (FA1D1BWP)     0.06 +     1.73 f
+  U110/ZN (CKND2D0BWP)                                    0.02 +     1.75 r
+  U116/ZN (ND3D0BWP)                                      0.03 +     1.79 f
+  U128/ZN (CKND0BWP)                                      0.02 +     1.81 r
+  U130/ZN (CKND2D0BWP)                                    0.02 +     1.83 f
+  U132/ZN (CKND2D0BWP)                                    0.02 +     1.84 r
+  out1_node0_reg[20]/D (EDFQD1BWP)                        0.00 +     1.84 r
+  data arrival time                                                  1.84
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (propagated)                        0.07       2.07
+  clock reconvergence pessimism                           0.00       2.07
+  clock uncertainty                                      -0.15       1.92
+  out1_node0_reg[20]/CP (EDFQD1BWP)                                  1.92 r
+  library setup time                                     -0.03       1.89
+  data required time                                                 1.89
+  ------------------------------------------------------------------------------
+  data required time                                                 1.89
+  data arrival time                                                 -1.84
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        0.05
+
+
+1

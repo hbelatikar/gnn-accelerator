@@ -1,0 +1,8 @@
+Loading verilog file '/filespace/d/deepas/ece755/project/ms5_redClkPeriod/pt_scripts/top.post_route.vg'
+Loading db file '/cae/apps/data/tsmclibs-2013/digital/Front_End/timing_power_noise/NLDM/tcbn45gsbwp_120a/tcbn45gsbwptc.db'
+Linking design top...
+Information: 758 (90.67%) library cells are unused in library tcbn45gsbwptc..... (LNK-045)
+Information: total 758 library cells are unused (LNK-046)
+Design 'top' was successfully linked.
+Information: There are 17432 leaf cells, ports, hiers and 21863 nets in the design (LNK-047)
+1
